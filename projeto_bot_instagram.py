@@ -43,7 +43,6 @@ while True:
     sleep(3)
     # curtir, ou esperar 24hs
     curtiu = pyautogui.locateOnScreen("curtiu.png")
-   # pyautogui.click(1460,706,duration=1)
     sleep(1)
     if curtiu is not None:
         logout()
