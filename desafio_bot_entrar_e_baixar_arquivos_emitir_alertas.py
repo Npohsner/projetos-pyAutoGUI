@@ -1,0 +1,30 @@
+import webbrowser
+import pyautogui
+from time import sleep
+
+webbrowser.open_new("https://cursoautomacao.netlify.app/")
+
+pyautogui.click(1038,202,duration=1)
+pyautogui.scroll(-1500)
+pyautogui.click(1692,304,duration=1)
+pyautogui.typewrite("Newton")
+pyautogui.click(1811,341,duration=1)
+pyautogui.click(1523,606,duration=1)
+pyautogui.scroll(1500)
+pyautogui.click(1063,209,duration=0.5)
+sleep(0.2)
+pyautogui.scroll(-3000)
+pyautogui.click(1037,448,duration=0.5)
+pyautogui.scroll(-3000)
+pyautogui.click(1142,693,duration=0.5)
+sleep(0.5)
+pyautogui.click(1318,668,duration=0.5)
+sleep(0.5)
+pyautogui.click(1644,13,duration=0.5)
+pyautogui.click(1461,284,duration=0.5)
+pyautogui.scroll(3000)
+sleep(0.5)
+pyautogui.click(1693,302,duration=0.5)
+pyautogui.typewrite("TERMINEI")
+sleep(0.5)
+pyautogui.click(1701,344,duration=0.5)
