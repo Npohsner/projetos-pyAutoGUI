@@ -8,6 +8,8 @@ from time import sleep
 
 telefones = [551199999999, 5511988888888]
 
+#                 ou
+
 # Importando um arquivo txt. com uma lista
 
 telefones = []
@@ -16,7 +18,7 @@ with open("fones.txt","r") as arquivo:
    for linha in arquivo:
       telefones.append(linha.split("\n")[0])
       
-
+# iniciando bot
 for telefone in telefones:
    webbrowser.open_new(f"https://api.whatsapp.com/send?phone={telefone}") 
    sleep(10)
